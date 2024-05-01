@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="{{ url_for('static', filename='gui.css') }}"  type="text/css">
+    <title>Formulario</title>
+    
+
+</head>
+<body>
+
+    
+
+    <div class="form">
+        <fieldset>
+            <h1>Cadastro da Criança</h1>
+            
+            <form action="/login" id = "login" method="POST">
+                <label for="fname">Código:</label>
+                <input type="text" placeholder="Digite um número:" id="codigo" name="codigo"><br>
+                <label for="fname">Nome:</label>
+                <input type="text" placeholder="Nome da Criança:" id="nome" name="nome"><br>
+                <label for="fname">Idade:</label>
+                <input type="text" placeholder="idade" id="idade" name="idade"><br>
+                <button type="submit" id="submit">Enviar</button>
+            
+            </form>
+        </fieldset>
+        
+    </div>
+
+    <div class="imagem1">
+        <img src="infantil.png" height="100">
+        
+        </div>
+        
+        <div class="imagem2">
+            <img src="criança.jpg" height="200">
+        
+        </div>
+        
+        <div class="imagem3">
+            <img src="felicidade.jpeg">
+        </div>
+
+       
+ 
+    
+</body>
+</html>
